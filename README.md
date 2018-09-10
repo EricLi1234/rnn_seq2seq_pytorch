@@ -2,6 +2,7 @@
 rnn encoder decoder and add attention using pytorch
 
 output:
+
 Reading lines...
 Read 154883 sentence pairs
 Trimmed to 11885 sentence pairs
@@ -9,7 +10,9 @@ Counting words...
 Counted words:
 fra 4714
 eng 3081
+
 ['nous ne sommes pas encore desesperes .', 'we re not desperate yet .']
+
 0m 23s (- 1m 34s) (500 20%) 3.7331
 0m 51s (- 1m 16s) (1000 40%) 3.3684
 1m 17s (- 0m 51s) (1500 60%) 3.0754
