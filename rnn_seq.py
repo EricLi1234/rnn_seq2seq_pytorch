@@ -253,7 +253,6 @@ def train(input_tensor, target_tensor, encoder, decoder,
                 if decoder_input.item() == EOS_token:
                     break
     else:
-
         if use_teacher_forcing:
             # Teacher forcing: feed the target as the next input
             for di in range(target_length):
